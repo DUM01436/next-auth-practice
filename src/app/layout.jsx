@@ -5,7 +5,7 @@ export default ({ children }) => {
     <html>
 
       <head>
-        <title>NextAuth</title>
+        <title>Next Auth</title>
       </head>
 
       <body>
