@@ -7,7 +7,7 @@ import EmailProvider from 'next-auth/providers/email'
 import GoogleProvider from 'next-auth/providers/google'
 
 export default NextAuth({
-  adapter: MongoDBAdapter(new MongoClient('mongodb://localhost:27017/next-auth').connect()),
+  adapter: MongoDBAdapter(new MongoClient('mongodb+srv://admin:admin@cluster0.s0umckf.mongodb.net/?retryWrites=true&w=majority').connect()),
   session: {
     strategy: 'jwt'
   },
